@@ -45,6 +45,11 @@ header img {
     font-size: 1.125rem;
 }
 
+#nav-links a:hover {
+    color: #2886c5;
+    transition: color 0.15s ease;
+}
+
 main {
     max-width: 1240px;
     margin: 0 auto;
@@ -60,10 +65,10 @@ h1 {
 }
 
 footer {
-    background-color: #bad3f5;
+    background-color: #abf1afc7;
     padding: 1rem;
     text-align: center;
-    box-shadow: 0 0 5px 2px #bad3f5;
+    box-shadow: 0 0 5px 2px #abf1afc7;
     margin-top: 3rem;
 }
 
@@ -71,24 +76,31 @@ footer {
     max-width: 700px;
     margin: 0 auto;
     margin-bottom: 2rem;
-    text-align: justify;
+    text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 1em;
+    border-radius: 1rem;
+    background-color: #d5f0f7;
+    box-shadow: 0 -2px 20px 3px rgba(0, 0, 0, 0.158);
 }
 
 #team-text {
     max-width: 700px;
     margin: 0 auto;
-    text-align: justify;
+    text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 1em;
+    box-shadow: 0 -2px 20px 3px rgba(0, 0, 0, 0.158);
+    background-color: #ffffff;
+    border-radius: 1rem;
 }
 
 #team-text picture img {
     max-width: 100%;
-    /* aspect-ratio: 750 / 560; */
     width: 100%;
     height: auto;
     margin-top: 1rem;
@@ -101,6 +113,7 @@ figcaption {
     text-align: center;
     font-size: 0.9rem;
     color: rgb(34, 34, 34);
+    margin-top: 0.5rem;
 }
 
 @media (max-width: 768px) {
@@ -115,6 +128,9 @@ figcaption {
         margin-left: 0;
         margin-bottom: 0.5rem;
     }
+    main {
+        padding: 1rem;
+    }
 }
 
 @media (max-width: 425px) {
@@ -123,6 +139,17 @@ figcaption {
     }
     header img {
         height: 4.5rem;
+    }
+    main {
+        padding: 0rem;
+    }
+    #company-text {
+        padding: 0.5rem;
+        border-radius: 0rem;
+    }
+    #team-text {
+        padding: 0.5rem;
+        border-radius: 0rem;
     }
 }
 
