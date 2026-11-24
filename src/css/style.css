@@ -23,11 +23,14 @@ header {
 
 header img {
     height: 5.5rem;
+    margin-left: 10rem;
 }
 
 .main-nav {
     display: flex;
     align-items: center;
+    margin-left: auto;
+    margin-right: 10rem;
 }
 
 .main-nav ul {
@@ -71,7 +74,7 @@ h2 {
     margin-bottom: 4px;
 }
 
-.startpage-h1 {
+.news-h1 {
     margin-bottom: 0.5rem;
 }
 
@@ -256,7 +259,8 @@ legend {
     margin-top: 1rem;
 }
 
-.news-article {
+.news-article,
+.package-article {
     max-width: 900px;
     margin: 0 auto;
     text-align: left;
@@ -290,6 +294,44 @@ legend {
     box-shadow: 0 -2px 20px 3px rgba(0, 0, 0, 0.158);
     text-align: center;
     object-fit: cover;
+}
+
+.news-highlight {
+    font-weight: 700;
+    color: #b63c04;
+}
+
+.package-article {
+    border-left: 5px solid #91908dc7;
+    background: linear-gradient(to right, #ffffff, #f0e18d2d);
+}
+
+.package-info {
+    width: 80%;
+}
+
+.package-info h3 {
+    margin: 1rem 0 0.5rem 0;
+    color: #0077ff;
+}
+
+.package-include {
+    margin: 1rem 0 1rem;
+    padding-left: 1rem;
+}
+
+.package-price {
+    font-weight: 700;
+    color: #2c7aee;
+}
+
+@media (max-width: 1024px) {
+    header img {
+        margin-left: 1rem;
+    }
+    .main-nav {
+        margin-right: 1rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -329,9 +371,13 @@ legend {
     }
     header img {
         height: 4.5rem;
+        margin-left: 0rem;
     }
     main {
         padding: 0rem;
+    }
+    .main-nav {
+        margin-right: 0rem;
     }
     h1 {
         margin-top: 1.5rem;
