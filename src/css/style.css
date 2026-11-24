@@ -83,6 +83,9 @@ h2 {
     text-align: center;
     margin-top: 0em;
     width: 50%;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid #858484;
+    border-bottom-style: double;
 }
 
 footer {
@@ -329,6 +332,7 @@ legend {
 
 .help-section {
     gap: 1rem;
+    width: 50%;
 }
 
 .help-article {
@@ -358,12 +362,22 @@ legend {
     transition: background-color 0.3s ease;
 }
 
+.ai-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 @media (max-width: 1024px) {
     header img {
         margin-left: 1rem;
     }
     .main-nav {
         margin-right: 1rem;
+    }
+    .help-section {
+        gap: 1rem;
+        width: 75%;
     }
 }
 
@@ -394,6 +408,7 @@ legend {
         font-size: 0.95rem;
     }
     .intro-text {
+        text-align: left;
         width: 75%;
     }
     .package-footer a {
@@ -403,6 +418,15 @@ legend {
     }
     .package-info {
         width: 100%;
+    }
+    .help-section {
+        width: 100%;
+    }
+    h1 {
+        font-size: 1.75rem;
+    }
+    h2 {
+        font-size: 1.25rem;
     }
 }
 
