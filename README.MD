@@ -10,6 +10,10 @@ I denna laboration har jag skapat webbplatsen Travel Meraviglia som är en fikti
 
 ![Del av startsidan på webbplatsen Travel Meraviglia](images/thumbnail.png)
 
+## Publicerad webbplats
+Länk: https://travel-meraviglia.netlify.app/
+
+## Reflektioner
 Jag valde att skapa just denna typ av rese-webbplats eftersom jag är intresserad av resor och tycker det är roligt att arbeta med mina befintliga bilder, samt ge mig inspiration till framtida resor. Däremot valde jag i uppgiften att generera logotyp, favicon, en bild på om-oss sidan samt textinnehåll på många av sidorna med hjälp av AI, Google Gemini.
 
 Eftersom det var länge sedan jag skapade denna typ av webbplats med enbart CSS och HTML, så gav det mig en insikt i hur mycket jag utvecklats sedan förra året vid denna tidpunkt. Det är verkligen mycket smidigare nu och man förstår mycket mer av hur man kan strukturera och bygga upp en webbplats med bara HTML och CSS.
